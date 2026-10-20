@@ -1,0 +1,135 @@
+{
+ "results": [
+  {
+   "game": "E2 (CARRIERS, GameParams())",
+   "x_interval": [
+    0,
+    0.6
+   ],
+   "r1_interval": [
+    0.0,
+    10.0
+   ],
+   "carriers": {
+    "memory": {
+     "degree": 20,
+     "poly_vs_code_max_abs_err": 3.803251047429512e-10,
+     "r1_lo": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -2.8945942080548956,
+      "negative_on_interval": true
+     },
+     "r1_hi": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -85.77205942877897,
+      "negative_on_interval": true
+     },
+     "certified_all_r1_in_interval": true,
+     "certified_each_grid_r1": true,
+     "sampled_a10_monotone_each_grid_r1": true
+    },
+    "skill": {
+     "degree": 20,
+     "poly_vs_code_max_abs_err": 1.4415535432021898e-10,
+     "r1_lo": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -6.868014696164612,
+      "negative_on_interval": true
+     },
+     "r1_hi": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -38.47568870220049,
+      "negative_on_interval": true
+     },
+     "certified_all_r1_in_interval": true,
+     "certified_each_grid_r1": true,
+     "sampled_a10_monotone_each_grid_r1": true
+    },
+    "queue": {
+     "degree": 20,
+     "poly_vs_code_max_abs_err": 8.527312189698932e-11,
+     "r1_lo": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -4.370885492561325,
+      "negative_on_interval": true
+     },
+     "r1_hi": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -13.96452439149485,
+      "negative_on_interval": true
+     },
+     "certified_all_r1_in_interval": true,
+     "certified_each_grid_r1": true,
+     "sampled_a10_monotone_each_grid_r1": true
+    },
+    "branch": {
+     "degree": 20,
+     "poly_vs_code_max_abs_err": 3.572053763889471e-10,
+     "r1_lo": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -3.8665570177587476,
+      "negative_on_interval": true
+     },
+     "r1_hi": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -46.298217432124176,
+      "negative_on_interval": true
+     },
+     "certified_all_r1_in_interval": true,
+     "certified_each_grid_r1": true,
+     "sampled_a10_monotone_each_grid_r1": true
+    }
+   },
+   "all_carriers_certified": true
+  },
+  {
+   "game": "Proposition 5 instance (P3_CARRIERS, P3_GAME)",
+   "x_interval": [
+    0,
+    0.5
+   ],
+   "r1_interval": [
+    0.0,
+    2.0
+   ],
+   "carriers": {
+    "a": {
+     "degree": 20,
+     "poly_vs_code_max_abs_err": 1.0567859087817766e-10,
+     "r1_lo": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -4.88566786800921,
+      "negative_on_interval": true
+     },
+     "r1_hi": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -18.18223698664654,
+      "negative_on_interval": true
+     },
+     "certified_all_r1_in_interval": true,
+     "certified_each_grid_r1": true,
+     "sampled_a10_monotone_each_grid_r1": true
+    },
+    "b": {
+     "degree": 20,
+     "poly_vs_code_max_abs_err": 4.418687638008123e-13,
+     "r1_lo": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -0.003926592514016815,
+      "negative_on_interval": true
+     },
+     "r1_hi": {
+      "roots_in_interval": 0,
+      "dU_at_mid": -0.9953169267080257,
+      "negative_on_interval": true
+     },
+     "certified_all_r1_in_interval": true,
+     "certified_each_grid_r1": true,
+     "sampled_a10_monotone_each_grid_r1": true
+    }
+   },
+   "all_carriers_certified": true
+  }
+ ],
+ "method": "sympy exact rational real-root counting (Sturm) on dU/dx; dU/dx is affine in r1, so the two ends certify the interval"
+}

@@ -1,0 +1,10 @@
+# Python and LaTeX build files. The PDFs (supplement/proofs.pdf, figures/fig1/fig1_overview.pdf) are
+# part of the artifact and must be committed.
+__pycache__/
+*.pyc
+.DS_Store
+supplement/*.aux
+supplement/*.log
+supplement/*.out
+*.fls
+*.fdb_latexmk

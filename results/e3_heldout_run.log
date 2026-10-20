@@ -1,0 +1,71 @@
+started Wed Oct 14 03:42:21 +07 2026
+tune: 250/3360 episodes, 140s
+tune: 500/3360 episodes, 276s
+tune: 750/3360 episodes, 399s
+tune: 1000/3360 episodes, 519s
+tune: 1250/3360 episodes, 639s
+tune: 1500/3360 episodes, 759s
+tune: 1750/3360 episodes, 874s
+tune: 2000/3360 episodes, 978s
+tune: 2250/3360 episodes, 1081s
+tune: 2500/3360 episodes, 1185s
+tune: 2750/3360 episodes, 1283s
+tune: 3000/3360 episodes, 1387s
+tune: 3250/3360 episodes, 1488s
+tuned thresholds: {'1.0': 0.7, '10.0': 0.7}
+heldout pass 1: 250/12720 episodes, 1650s
+heldout pass 1: 500/12720 episodes, 1766s
+heldout pass 1: 750/12720 episodes, 1892s
+heldout pass 1: 1000/12720 episodes, 2015s
+heldout pass 1: 1250/12720 episodes, 2137s
+heldout pass 1: 1500/12720 episodes, 2251s
+heldout pass 1: 1750/12720 episodes, 2366s
+heldout pass 1: 2000/12720 episodes, 2487s
+heldout pass 1: 2250/12720 episodes, 2609s
+heldout pass 1: 2500/12720 episodes, 2720s
+heldout pass 1: 2750/12720 episodes, 2837s
+heldout pass 1: 3000/12720 episodes, 2954s
+heldout pass 1: 3250/12720 episodes, 3052s
+heldout pass 1: 3500/12720 episodes, 3152s
+heldout pass 1: 3750/12720 episodes, 3262s
+heldout pass 1: 4000/12720 episodes, 3369s
+heldout pass 1: 4250/12720 episodes, 3480s
+heldout pass 1: 4500/12720 episodes, 3595s
+heldout pass 1: 4750/12720 episodes, 3707s
+heldout pass 1: 5000/12720 episodes, 3807s
+heldout pass 1: 5250/12720 episodes, 3903s
+heldout pass 1: 5500/12720 episodes, 4004s
+heldout pass 1: 5750/12720 episodes, 4098s
+heldout pass 1: 6000/12720 episodes, 4196s
+heldout pass 1: 6250/12720 episodes, 4298s
+heldout pass 1: 6500/12720 episodes, 4392s
+heldout pass 1: 6750/12720 episodes, 4490s
+heldout pass 1: 7000/12720 episodes, 4590s
+heldout pass 1: 7250/12720 episodes, 4691s
+heldout pass 1: 7500/12720 episodes, 4793s
+heldout pass 1: 7750/12720 episodes, 4898s
+heldout pass 1: 8000/12720 episodes, 5001s
+heldout pass 1: 8250/12720 episodes, 5114s
+heldout pass 1: 8500/12720 episodes, 5224s
+heldout pass 1: 8750/12720 episodes, 5326s
+heldout pass 1: 9000/12720 episodes, 5441s
+heldout pass 1: 9250/12720 episodes, 5551s
+heldout pass 1: 9500/12720 episodes, 5659s
+heldout pass 1: 9750/12720 episodes, 5771s
+heldout pass 1: 10000/12720 episodes, 5876s
+heldout pass 1: 10250/12720 episodes, 5993s
+heldout pass 1: 10500/12720 episodes, 6108s
+heldout pass 1: 10750/12720 episodes, 6224s
+heldout pass 1: 11000/12720 episodes, 6348s
+heldout pass 1: 11250/12720 episodes, 6474s
+heldout pass 1: 11500/12720 episodes, 6600s
+heldout pass 1: 11750/12720 episodes, 6721s
+heldout pass 1: 12000/12720 episodes, 6932s
+heldout pass 1: 12250/12720 episodes, 7127s
+heldout pass 1: 12500/12720 episodes, 7333s
+heldout pass 2: 250/960 episodes, 7617s
+heldout pass 2: 500/960 episodes, 7725s
+heldout pass 2: 750/960 episodes, 7837s
+held-out: 16080 rows (13680 executed)
+E3 done in 7916s
+exit 0 Wed Oct 14 05:54:18 +07 2026

@@ -1,0 +1,21 @@
+\scriptsize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{@{}l r r r@{\,}l r@{\,}l r@{\,}l r@{\,}l r@{\,}l@{}}
+\toprule
+Condition & Att. & ROVER & \multicolumn{2}{c}{No audit} & \multicolumn{2}{c}{ROVER, no audits} & \multicolumn{2}{c}{ROVER, no window} & \multicolumn{2}{c}{Rollback only} & \multicolumn{2}{c}{Myopic} \\
+\midrule
+In the window (main run) & 64\% & 9.28 & 2.58 & [1.60, 3.80] & 1.09 & [0.39, 1.85] & 0.58 & [0.23, 0.98] & 2.08 & [1.27, 2.95] & 2.22 & [1.24, 3.31] \\
+Shifted by 2 milestones & 64\% & 10.26 & 1.65 & [0.90, 2.43] & 0.68 & [0.16, 1.20] & 0.17 & [-0.53, 0.74] & 1.66 & [0.80, 2.55] & \multicolumn{2}{c}{--} \\
+Shifted by 4 milestones & 64\% & 10.60 & 0.80 & [-0.03, 1.66] & 0.33 & [-0.25, 0.88] & 0.16 & [-0.37, 0.62] & 1.50 & [0.57, 2.41] & \multicolumn{2}{c}{--} \\
+Shifted by 6 milestones & 64\% & 11.13 & -0.09 & [-0.72, 0.60] & -0.01 & [-0.49, 0.52] & -0.16 & [-0.70, 0.33] & 1.41 & [0.56, 2.27] & \multicolumn{2}{c}{--} \\
+Shifted by 8 (late attacker) & 64\% & 10.59 & -0.53 & [-1.10, 0.11] & -0.40 & [-0.80, 0.03] & -0.32 & [-0.88, 0.20] & 1.45 & [0.68, 2.17] & -0.46 & [-1.14, 0.29] \\
+\midrule
+Attack rate 0.2, prior 0.6 & 18\% & 3.05 & 0.20 & [-0.38, 0.78] & -0.07 & [-0.50, 0.35] & \multicolumn{2}{c}{--} & 0.80 & [0.21, 1.45] & \multicolumn{2}{c}{--} \\
+Attack rate 0.2, prior 0.2 & 18\% & 2.65 & 0.60 & [0.10, 1.11] & 0.23 & [-0.07, 0.55] & \multicolumn{2}{c}{--} & 0.40 & [0.10, 0.75] & \multicolumn{2}{c}{--} \\
+Attack rate 0.05, prior 0.6 & 5\% & 1.32 & -0.16 & [-0.60, 0.30] & -0.17 & [-0.57, 0.20] & \multicolumn{2}{c}{--} & 0.68 & [0.09, 1.30] & \multicolumn{2}{c}{--} \\
+Attack rate 0.05, prior 0.05 & 5\% & 0.92 & 0.25 & [-0.03, 0.59] & -0.04 & [-0.07, -0.01] & \multicolumn{2}{c}{--} & 0.10 & [-0.04, 0.30] & \multicolumn{2}{c}{--} \\
+\midrule
+$\sigma_1=0.25$ (model 0.4) & 64\% & 10.90 & 0.96 & [0.03, 2.00] & \multicolumn{2}{c}{--} & \multicolumn{2}{c}{--} & 1.59 & [0.72, 2.61] & 0.86 & [-0.02, 1.83] \\
+$d,\alpha=0.7,0.1$ (model 0.9, 0.05) & 64\% & 10.47 & 1.39 & [0.46, 2.35] & \multicolumn{2}{c}{--} & \multicolumn{2}{c}{--} & 0.89 & [0.10, 1.73] & 1.10 & [0.17, 2.13] \\
+\bottomrule
+\end{tabular}

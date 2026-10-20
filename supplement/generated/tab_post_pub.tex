@@ -1,0 +1,17 @@
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{$\nu=1/24$} & \multicolumn{2}{c}{$\nu=1/4$} & \multicolumn{3}{c}{loss, $\nu=1/4$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-8}
+Policy & lines & leak \% & lines & leak \% & none & 20/line & 20/release \\
+\midrule
+ROVER & 0.26 & 8 & 1.02 & 30 & 9.28 & 29.70 & 24.61 \\
+ROVER, no audits & 0.55 & 15 & 1.58 & 39 & 10.37 & 41.95 & 33.37 \\
+Rollback only & 0.33 & 12 & 1.22 & 38 & 11.36 & 35.77 & 30.61 \\
+No audit & 0.70 & 20 & 2.00 & 46 & 11.86 & 51.86 & 45.20 \\
+Random audit & 0.69 & 19 & 1.85 & 45 & 13.46 & 50.46 & 45.29 \\
+Myopic rule & 0.67 & 18 & 1.83 & 45 & 11.50 & 48.08 & 40.66 \\
+Periodic review & 0.06 & 4 & 0.34 & 22 & 16.07 & 22.82 & 23.07 \\
+Immutable validator & 0.02 & 2 & 0.04 & 5 & 15.19 & 15.94 & 16.86 \\
+Reset all & 0.30 & 10 & 0.98 & 34 & 25.94 & 45.60 & 40.77 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,18 @@
+E1a phi=0.0 r1=0.0 done
+E1a phi=0.0 r1=0.1 done
+E1a phi=0.0 r1=1.0 done
+E1a phi=0.0 r1=10.0 done
+E1a phi=0.5 r1=0.0 done
+E1a phi=0.5 r1=0.1 done
+E1a phi=0.5 r1=1.0 done
+E1a phi=0.5 r1=10.0 done
+E1a phi=1.0 r1=0.0 done
+E1a phi=1.0 r1=0.1 done
+E1a phi=1.0 r1=1.0 done
+E1a phi=1.0 r1=10.0 done
+E1b d done
+E1b lam done
+E1b s1 done
+E1b c_a done
+E1c phi=0.5 done
+E1c phi=1.0 done

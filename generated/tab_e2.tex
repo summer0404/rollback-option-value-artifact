@@ -1,0 +1,14 @@
+\footnotesize
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{@{}l rr rr rr rr@{}}
+\toprule
+ & \multicolumn{2}{c}{$r_1=0$} & \multicolumn{2}{c}{$r_1=0.1$} & \multicolumn{2}{c}{$r_1=1$} & \multicolumn{2}{c}{$r_1=10$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Commitment & $u$ & BR & $u$ & BR & $u$ & BR & $u$ & BR \\
+\midrule
+Uniform & 5.70 & mem & 6.09 & mem & 9.62 & mem & 44.96 & mem \\
+$\phi$-proportional & 65.76 & mem & 66.27 & mem & 70.85 & mem & 116.70 & mem \\
+Recovery-blind & 13.76 & queue & 13.81 & queue & 14.27 & queue & 22.71 & tie \\
+Recovery-aware & \textbf{4.11} & tie & \textbf{4.29} & tie & \textbf{5.97} & tie & \textbf{22.71} & tie \\
+\bottomrule
+\end{tabular}

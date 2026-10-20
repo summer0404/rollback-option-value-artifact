@@ -1,0 +1,96 @@
+{
+ "grid": 2001,
+ "rows": 960,
+ "by_r1": {
+  "0.0": {
+   "episodes": 240,
+   "identical_decisions": 240,
+   "identical_loss": 240,
+   "mean_loss_dense": 4.85,
+   "mean_loss_501": 4.85,
+   "dense_minus_501": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_wilcoxon": 1.0,
+    "n": 30,
+    "a_lower": 0,
+    "b_lower": 0
+   },
+   "mean_audits_dense": 0.5083333333333333,
+   "mean_audits_501": 0.5083333333333333
+  },
+  "0.1": {
+   "episodes": 240,
+   "identical_decisions": 240,
+   "identical_loss": 240,
+   "mean_loss_dense": 5.4025,
+   "mean_loss_501": 5.4025,
+   "dense_minus_501": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_wilcoxon": 1.0,
+    "n": 30,
+    "a_lower": 0,
+    "b_lower": 0
+   },
+   "mean_audits_dense": 0.6208333333333333,
+   "mean_audits_501": 0.6208333333333333
+  },
+  "1.0": {
+   "episodes": 240,
+   "identical_decisions": 240,
+   "identical_loss": 240,
+   "mean_loss_dense": 9.279166666666667,
+   "mean_loss_501": 9.279166666666667,
+   "dense_minus_501": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_wilcoxon": 1.0,
+    "n": 30,
+    "a_lower": 0,
+    "b_lower": 0
+   },
+   "mean_audits_dense": 0.8958333333333334,
+   "mean_audits_501": 0.8958333333333334
+  },
+  "10.0": {
+   "episodes": 240,
+   "identical_decisions": 240,
+   "identical_loss": 240,
+   "mean_loss_dense": 18.825,
+   "mean_loss_501": 18.825,
+   "dense_minus_501": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_wilcoxon": 1.0,
+    "n": 30,
+    "a_lower": 0,
+    "b_lower": 0
+   },
+   "mean_audits_dense": 1.0041666666666667,
+   "mean_audits_501": 1.0041666666666667
+  }
+ },
+ "H1_rollback_minus_rover_dense": {
+  "diff": 2.0791666666666666,
+  "lo": 1.2665625,
+  "hi": 2.9460416666666656,
+  "p_wilcoxon": 7.470940215962142e-05,
+  "n": 30,
+  "a_lower": 4,
+  "b_lower": 26
+ },
+ "H2_noaudit_minus_rover_dense_irr_events": {
+  "diff": 0.05416666666666667,
+  "lo": 0.029166666666666667,
+  "hi": 0.08333333333333333,
+  "p_wilcoxon": 0.0017663366484100128,
+  "n": 30,
+  "a_lower": 0,
+  "b_lower": 11
+ }
+}

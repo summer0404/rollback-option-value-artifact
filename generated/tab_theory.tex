@@ -1,0 +1,20 @@
+\footnotesize
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{@{}llrl@{}}
+\toprule
+Result & Check & $n$ & Outcome \\
+\midrule
+Thm.~\ref{thm:structure}(ii) & grid, random & 36{,}247 cells & 0 violations \\
+Thm.~\ref{thm:structure}(iii) & same, A6 holds & 7{,}166 cells & 0 violations \\
+Thm.~\ref{thm:structure}(v) & grid, $d{=}1,\alpha{=}0$ & 400 inst. & 0 violations \\
+Prop.~\ref{prop:counter} & plan enumeration & 11 beliefs & all confirmed \\
+Prop.~\ref{prop:counter}, search & grid, random & 1{,}000 inst. & 39 order breaks \\
+ & exact recheck & 41 cells & 41 confirmed \\
+Thm.~\ref{thm:timing}(i,ii) & closed form vs exact & 600 inst. & 0 violations \\
+Thm.~\ref{thm:timing}(iv) & gap vs bound & 339 inst. & 0 violations \\
+Thm.~\ref{thm:game}(i) & Monte Carlo & 80 cells & 0 outside 3.5 s.e. \\
+Thm.~\ref{thm:game}(iii) & finite differences & 352 games & all within 5\% \\
+Prop.~\ref{prop:p3}(b) & random games & 1{,}187 games & 392 counterexamples \\
+Grid DP & vs exact, $T\le6$ & 4 horizons & error $<$$5\times10^{-5}$ \\
+\bottomrule
+\end{tabular}

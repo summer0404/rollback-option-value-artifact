@@ -1,0 +1,12 @@
+policy,n_memory,streams_memory,n_skill,streams_skill,n_queue,streams_queue,n_branch,streams_branch,insample_best,insample_payoff,split_pick_A,split_select_A,split_eval_A,split_pick_B,split_select_B,split_eval_B,split_eval_mean,selection_optimism
+no_audit,41,25,45,24,37,22,30,23,skill,14.1472,skill,14.4,14.9906,skill,14.9906,14.4,14.6953,0
+random_audit,41,25,45,24,37,22,30,23,skill,15.3139,skill,15.9853,15.4281,skill,15.4281,15.9853,15.7067,0
+periodic_review,41,25,45,24,37,22,30,23,memory,11.422,memory,12.425,10.4895,memory,10.4895,12.425,11.4572,0
+rollback_tuned,41,25,45,24,37,22,30,23,memory,14.014,skill,13.8784,12.4094,memory,14.3737,12.975,12.6922,1.43387
+reset_all,41,25,45,24,37,22,30,23,memory,30.022,memory,29.5,29.6737,memory,29.6737,29.5,29.5868,0
+immutable_validator,41,25,45,24,37,22,30,23,memory,9.988,memory,9.7,9.80263,memory,9.80263,9.7,9.75132,0
+myopic,41,25,45,24,37,22,30,23,memory,12.616,skill,13.5147,11.7969,memory,13.3316,12.25,12.0234,1.3997
+rover_irrev_blind,41,25,45,24,37,22,30,23,skill,12.1639,skill,13.3294,11.7531,skill,11.7531,13.3294,12.5413,0
+rover_const,41,25,45,24,37,22,30,23,memory,11.842,skill,11.4627,7.70625,memory,12.3605,11.1,9.40312,2.50851
+rover_noaudit,41,25,45,24,37,22,30,23,memory,12.808,skill,12.6912,11.7531,memory,13.45,11.975,11.8641,1.20653
+rover,41,25,45,24,37,22,30,23,memory,11.194,skill,10.8382,6.83125,memory,11.65,10.075,8.45312,2.79099

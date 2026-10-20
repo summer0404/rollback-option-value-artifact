@@ -1,0 +1,7 @@
+{
+ "solve_seconds_mean": 0.08160071459715254,
+ "solve_seconds_max": 0.0991612909710966,
+ "decision_microseconds": 292.46381248231046,
+ "grid": 501,
+ "horizon": 24
+}
